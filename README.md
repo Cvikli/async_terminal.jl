@@ -4,6 +4,7 @@ Run @async BUT in terminals.
 ```julia
 @aync_tty [`tty`,[`echo "haha whut"`, `tty`, `echo "I am on the machine"`, `echo "hell"`], `echo "We are rocking!"`]
 ```
+This runs 3 terminal with the specified commands.
 
 # Why?
 I needed this to open several terminal and see the output continuously of different runs. 
